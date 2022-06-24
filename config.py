@@ -7,7 +7,7 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-if str(getenv("SESSION_NAME")).strip() == "1BVtsOKQBu7vtptuduE7330MVpF4A_C6hBRQK-DQvhR-Engb6aK0lUmIu-KBpXQaIEg2yf6ecNPGLWIlYU7ch6NxuRVzPER0-_GaRfFZ8vD0QtRYme6k8Ag4Gj-G7G7XQ93ZRM05tZDce67d20fAu_X8WY41OdzDlk6XmiSP2QkP_2xq9qFqI5TCxpc35z8TXT9il5nDjVicQYzP8YkMZzQu_CfN9GZljO3PprWWu2x_jd8d3t3iMsMsfzi-KJVQfxONW-VMK4oY60TyIHZPZPxoE9HfGLeRprz6Ob1BR-83JVn_2nm3QGGpnbtKoUxULcc9zc4R-Sfklw_2rOf2To0LSalNJkHA=":
+if str(getenv("SESSION_NAME")).strip() == "BQAm-VaS2GF3OBjzkLEX-79H4yLEYglzroSwtdBO5k1N3_huvZXV6nlH4oyVlRlYv2SHnwrwabKt2S_1F--qbJa0hsD8B9-dR9uPxVXYHDeOkWKL-FUVIh_y2SeNITl-8tkWu4irjN4NXskeH6PmHseGKyqkhQhuYu4vAy5VRuEHA9qb7REwEGMbKpR4HcvwI3usVNTUPHwvD1Z5jDdqsMCczD4uA9S_4diFhr9dTlMdpla-Zj6yw3eXDIeBqAb0bYjCajf-FQs40jjAgP-j1pTd9kbFdLszAkbRQQtmT1HIF8G8vz2ewj-izu80YAfACTS7alCpJ1YXsHoB4SToY1MyZ7a72AA":
     SESSION_NAME = str(None)
 else:
     SESSION_NAME = str(getenv("SESSION_NAME"))
